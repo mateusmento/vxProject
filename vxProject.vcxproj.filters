@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="vix">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="vix\exm">
+      <UniqueIdentifier>{371f162e-ad83-459b-b805-4a07278f064e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vix\inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="vix\inc\vix">
+      <UniqueIdentifier>{c5ddda38-bbab-4e35-9bb9-aa8f60043f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vix\inc\vix\internal">
+      <UniqueIdentifier>{0077602f-7331-4962-b125-b5b942576c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vix\src">
+      <UniqueIdentifier>{280bc8ea-3db6-4f80-b10d-217ed973c316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vix\src\video">
+      <UniqueIdentifier>{87e15351-6a96-4df2-82b3-5f951976b941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vix\exm\demo">
+      <UniqueIdentifier>{d044c785-9d44-4d98-8b51-c2c1a3c2c3f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\video\Event.cpp">
+      <Filter>vix\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\OpenGL.cpp">
+      <Filter>vix\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\video\Window.cpp">
+      <Filter>vix\src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base.cpp">
+      <Filter>vix\src</Filter>
+    </ClCompile>
+    <ClCompile Include="exm\demo\main.cpp">
+      <Filter>vix\exm\demo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\video\MessageHandlers.h">
+      <Filter>vix\src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="src\video\WndProc.h">
+      <Filter>vix\src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vix\vxBase.h">
+      <Filter>vix\inc\vix</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vix\vxEvent.h">
+      <Filter>vix\inc\vix</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vix\vxOpenGL.h">
+      <Filter>vix\inc\vix</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vix\vxTypedefs.h">
+      <Filter>vix\inc\vix</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vix\vxWindow.h">
+      <Filter>vix\inc\vix</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vix\internal\Base.h">
+      <Filter>vix\inc\vix\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vix\internal\Event.h">
+      <Filter>vix\inc\vix\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vix\internal\OpenGL.h">
+      <Filter>vix\inc\vix\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vix\internal\Window.h">
+      <Filter>vix\inc\vix\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="exm\demo\main.h">
+      <Filter>vix\exm\demo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
